@@ -19,6 +19,7 @@ export const Navlinks = [
     name: "ABOUT",
     link: "/#about",
   },
+
   {
     id: 1,
     name: "BOOKING",
@@ -27,7 +28,6 @@ export const Navlinks = [
 ];
 const Navbar = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
-
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
